@@ -23,7 +23,7 @@
   ],
   "activationEvents": [],
   "main": "./dist/extension.js",
-  "icon": "./src/assets/eolink2ts.png",
+  "icon": "icon.png",
   "repository": {
     "url": "https://github.com/emondora/vscode-eolink2ts.git"
   },
