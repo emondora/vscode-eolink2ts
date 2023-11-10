@@ -18,8 +18,8 @@ export function getInterfaces(
 ) {
   let content = "";
   if (filterKey) {
-    const data = list.filter((item) => item.key === filterKey)[0];
-    if (data.childList && data.childList.length > 0) {
+    const data = list.find((item) => item.key === filterKey);
+    if (data && data.childList && data.childList.length > 0) {
       list = data.childList;
     }
   }
