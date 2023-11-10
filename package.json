@@ -4,7 +4,7 @@
   "description": "Eolink Typescript Interface Converter",
   "author": "Roger Luo",
   "publisher": "emondora",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.51.0"
   },
@@ -32,12 +32,12 @@
       "title": "Eolink2TS",
       "type": "object",
       "properties": {
-        "Eolink2TS.readonly": {
+        "eolink2ts.readonly": {
           "type": "boolean",
           "default": true,
           "description": "是否添加只读属性，默认为 true"
         },
-        "Eolink2TS.filterKey": {
+        "eolink2ts.filterKey": {
           "type": "string",
           "default": null,
           "description": "指定过滤元素的key, 默认为 null"
